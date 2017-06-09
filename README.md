@@ -15,8 +15,7 @@ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`,
 and `eslint-plugin-jsx-a11y`.
 
 ```
-yarn add eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
-eslint-config-blend
+yarn add --dev eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-blend
 ```
 
 2. Add `"extends": "blend"` to your .eslintrc
