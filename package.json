@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Blend Marketing's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Jared Meyering <jared@blendimc.com",
+  "author": "Jared Meyering <jared@blendimc.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blendmarketing/javascript/issues"
