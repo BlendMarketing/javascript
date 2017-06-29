@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blend",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Blend Marketing's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
