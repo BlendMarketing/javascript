@@ -23,7 +23,7 @@
   "homepage": "https://github.com/blendmarketing/javascript",
   "dependencies": {
     "eslint-config-airbnb": "^15.0.1",
-    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-airbnb-base": "^11.2.0"
   },
   "peerDependencies": {
     "eslint": "^4.2.0",
