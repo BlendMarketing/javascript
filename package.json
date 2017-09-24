@@ -4,7 +4,14 @@
   "description": "Blend Marketing's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --single-quote --trailing-comma all --write",
+      "git add"
+    ]
   },
   "repository": "https://github.com/blendmarketing/javascript",
   "keywords": [
@@ -28,7 +35,10 @@
     "eslint": "^3.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.0.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.2",
+    "prettier": "^1.7.0"
   },
   "peerDependencies": {
     "eslint": "^3.0.0",
