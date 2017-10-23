@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/blendmarketing/javascript",
   "dependencies": {
-    "eslint-config-airbnb": "^15.0.2"
+    "eslint-config-airbnb": "^16.1.0"
   },
   "devDependencies": {
     "eslint": "^3.0.0",
